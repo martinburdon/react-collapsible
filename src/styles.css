@@ -1,0 +1,21 @@
+.collapsible-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.collapsible-head {
+  background: #ddd;
+  cursor: pointer;
+  padding: 20px;
+  user-select: none;
+}
+
+.collapsible-body {
+  background: #eee;
+  display: none;
+  padding: 20px;
+}
+
+.collapsible-body.is-open {
+  display: block;
+}
