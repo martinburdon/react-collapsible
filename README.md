@@ -34,6 +34,20 @@ class Example extends Component {
 }
 ```
 
+### Available CSS custom properties
+
+```css
+--collapsible-margin
+--collapsible-head-background
+--collapsible-head-color
+--collapsible-head-padding
+--collapsible-body-background
+--collapsible-body-color
+--collapsible-body-padding
+```
+
+[Example](https://martinburdon.github.io/react-collapsible/)
+
 ## License
 
 MIT © [martinburdon](https://github.com/martinburdon)

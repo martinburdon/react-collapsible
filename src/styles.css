@@ -1,21 +1,24 @@
 .collapsible-container {
   display: flex;
   flex-direction: column;
+  margin: var(--collapsible-margin);
 }
 
 .collapsible-head {
-  background: #ddd;
+  background: var(--collapsible-head-background);
+  color: var(--collapsible-head-color);
   cursor: pointer;
-  padding: 20px;
+  padding: var(--collapsible-head-padding);
   user-select: none;
 }
 
 .collapsible-body {
-  background: #eee;
+  background: var(--collapsible-body-background);
+  color: var(--collapsible-body-color);
   display: none;
-  padding: 20px;
+  padding: var(--collapsible-body-padding);
 }
 
-.collapsible-body.is-open {
+.collapsible-body--is-open {
   display: block;
 }
