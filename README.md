@@ -15,12 +15,21 @@ npm install --save @mtburdon/react-collapsible
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@mtburdon/react-collapsible'
+import {
+  Collapsible,
+  CollapsibleHead,
+  CollapsibleBody
+} from '@mtburdon/react-collapsible'
 import '@mtburdon/react-collapsible/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <Collapsible>
+        <CollapsibleHead>Toggle me</CollapsibleHead>
+        <CollapsibleBody>Some content</CollapsibleBody>
+      </Collapsible>
+    )
   }
 }
 ```
