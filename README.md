@@ -1,13 +1,13 @@
-# @mtb/react-collapsible
+# @mtburdon/react-collapsible
 
 > React collapsible component
 
-[![NPM](https://img.shields.io/npm/v/@mtb/react-collapsible.svg)](https://www.npmjs.com/package/@mtb/react-collapsible) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@mtburdon/react-collapsible.svg)](https://www.npmjs.com/package/@mtburdon/react-collapsible) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @mtb/react-collapsible
+npm install --save @mtburdon/react-collapsible
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save @mtb/react-collapsible
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@mtb/react-collapsible'
-import '@mtb/react-collapsible/dist/index.css'
+import MyComponent from '@mtburdon/react-collapsible'
+import '@mtburdon/react-collapsible/dist/index.css'
 
 class Example extends Component {
   render() {

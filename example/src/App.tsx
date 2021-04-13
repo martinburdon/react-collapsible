@@ -4,8 +4,8 @@ import {
   Collapsible,
   CollapsibleHead,
   CollapsibleBody
-} from '@mtb/react-collapsible'
-import '@mtb/react-collapsible/dist/index.css'
+} from '@mtburdon/react-collapsible'
+import '@mtburdon/react-collapsible/dist/index.css'
 
 const App = () => {
   return (

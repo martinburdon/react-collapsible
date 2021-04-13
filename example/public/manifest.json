@@ -1,6 +1,6 @@
 {
-  "short_name": "@mtb/react-collapsible",
-  "name": "@mtb/react-collapsible",
+  "short_name": "@mtburdon/react-collapsible",
+  "name": "@mtburdon/react-collapsible",
   "icons": [
     {
       "src": "favicon.ico",
