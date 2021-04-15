@@ -10,17 +10,19 @@
 npm install --save @mtburdon/react-collapsible
 ```
 
+**[Example](https://martinburdon.github.io/react-collapsible/)**
+
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import {
   Collapsible,
   CollapsibleHead,
   CollapsibleBody
-} from '@mtburdon/react-collapsible'
-import '@mtburdon/react-collapsible/dist/index.css'
+} from '@mtburdon/react-collapsible';
+import '@mtburdon/react-collapsible/dist/index.css';
 
 class Example extends Component {
   render() {
@@ -29,7 +31,7 @@ class Example extends Component {
         <CollapsibleHead>Toggle me</CollapsibleHead>
         <CollapsibleBody>Some content</CollapsibleBody>
       </Collapsible>
-    )
+    );
   }
 }
 ```
@@ -40,13 +42,12 @@ class Example extends Component {
 --collapsible-margin
 --collapsible-head-background
 --collapsible-head-color
+--collapsible-head-font-weight
 --collapsible-head-padding
 --collapsible-body-background
 --collapsible-body-color
 --collapsible-body-padding
 ```
-
-[Example](https://martinburdon.github.io/react-collapsible/)
 
 ## License
 
