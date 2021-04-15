@@ -1,9 +1,9 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, FC, useState } from 'react';
 
 export const CollapsibleContext = createContext<object>({});
 
-const CollapsibleContextProvider = (props: any) => {
-  const [isOpen, setIsOpen] = useState(false);
+const CollapsibleContextProvider: FC = (props) => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleCollapsible = () => {
     setIsOpen((isOpen) => !isOpen);

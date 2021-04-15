@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 import CollapsibleContextProvider from './contexts/CollapsibleContext';
 
-export default (props: any) => {
+const Collapsible: FC = (props) => {
   return (
     <CollapsibleContextProvider>
       <div className='collapsible-container'>{props.children}</div>
     </CollapsibleContextProvider>
   );
 };
+
+export default Collapsible;

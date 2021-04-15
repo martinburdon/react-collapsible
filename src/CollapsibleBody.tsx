@@ -1,9 +1,11 @@
-import React, { useContext } from 'react';
+import React, { FC, useContext } from 'react';
 import { CollapsibleContext } from './contexts/CollapsibleContext';
 
-export default (props: any) => {
-  const { isOpen } = useContext(CollapsibleContext) as any;
+const CollapsibleBody: FC = (props) => {
+  const { isOpen }: any = useContext(CollapsibleContext);
   const className = ['collapsible-body'];
   if (isOpen) className.push('collapsible-body--is-open');
   return <div className={className.join(' ')}>{props.children}</div>;
 };
+
+export default CollapsibleBody;
